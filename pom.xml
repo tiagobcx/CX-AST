@@ -139,6 +139,11 @@
             <version>1.7.7</version>
             <type>jar</type>
         </dependency>
+             <dependency>
+    <groupId>com.github.codingandcoding</groupId>
+    <artifactId>servlet-api</artifactId>
+    <version>3.2.0</version>
+</dependency>
 
         <!-- ************* END spring MVC and related dependencies ************** -->
 
