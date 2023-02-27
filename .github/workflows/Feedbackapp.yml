@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Checkmarx Sarif Integration
+name: feedbackapp
 
 # Controls when the workflow will run
 on: [push,pull_request,workflow_dispatch]
@@ -23,7 +23,7 @@ jobs:
           cx_client_id: ${{ secrets.CX_CLIENT_ID }}
           cx_client_secret: ${{ secrets.CX_CLIENT_SECRET }}
           cx_tenant: ${{ secrets.CX_TENANT }}
-          additional_params: --project-tags 'feedback_assignee:Yoav ast' --tags 'feedback_assignee:Vered Shahar'
+          additional_params: --project-tags 'feedback_assignee:Yoav ast' --tags 'feedback_assignee:Vered Shahar' --debug
 
 
 
